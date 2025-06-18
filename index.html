@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>MrBuilder | Smart Pergola Solutions</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+  <style>
+    @keyframes float {
+      0% { transform: translateY(0px); }
+      50% { transform: translateY(-20px); }
+      100% { transform: translateY(0px); }
+    }
+    .float-animation {
+      animation: float 6s ease-in-out infinite;
+    }
+    .gradient-text {
+      background: linear-gradient(90deg, #f97316, #f59e0b);
+      -webkit-background-clip: text;
+      background-clip: text;
+      color: transparent;
+    }
+  </style>
+</head>
+<body class="bg-orange-50 text-gray-800 min-h-screen flex flex-col">
+  <!-- Navigation -->
+  <nav class="container mx-auto px-6 py-4">
+    <div class="flex justify-between items-center">
+      <div class="flex items-center">
+        <img src="https://i.postimg.cc/yWmQSHZD/mrbuilder-logo.png" alt="MrBuilder Logo" class="h-20 hover:scale-105 transition-transform">
+      </div>
+      <button class="md:hidden">
+        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+        </svg>
+      </button>
+    </div>
+  </nav>
+
+  <div class="border-t border-gray-200 w-full"></div>
+
+  <!-- Main Content -->
+  <main class="flex-grow flex items-center">
+    <div class="container mx-auto px-6 py-12">
+      <div class="flex flex-col lg:flex-row items-center justify-between">
+        <!-- Left Column -->
+        <div class="lg:w-1/2 mb-12 lg:mb-0 text-center lg:text-left">
+          <h1 class="text-4xl md:text-6xl font-bold mb-6">
+            <span class="gradient-text">Revolutionizing</span> Pergola Installation
+          </h1>
+          <p class="text-xl md:text-2xl mb-8 text-gray-600">
+            The first smart automation platform for seamless pergola installation & maintenance services.
+          </p>
+          
+          <div class="mb-8">
+            <div class="flex items-center mb-4">
+              <div class="bg-orange-100 p-2 rounded-full mr-4">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-orange-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                </svg>
+              </div>
+              <span>Automated project estimation</span>
+            </div>
+            <div class="flex items-center mb-4">
+              <div class="bg-orange-100 p-2 rounded-full mr-4">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-orange-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                </svg>
+              </div>
+              <span>AI-powered design assistance</span>
+            </div>
+            <div class="flex items-center">
+              <div class="bg-orange-100 p-2 rounded-full mr-4">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-orange-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                </svg>
+              </div>
+              <span>Smart scheduling & tracking</span>
+            </div>
+          </div>
+
+          <div class="max-w-md mx-auto lg:mx-0">
+            <p class="text-lg mb-6 text-gray-600">We're launching soon! Join our waitlist for early access.</p>
+            <form class="flex flex-col sm:flex-row gap-4">
+              <input 
+                type="email" 
+                placeholder="Enter your email" 
+                class="flex-grow px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-orange-500 focus:border-orange-500 outline-none transition"
+                required
+              >
+              <button 
+                type="submit" 
+                class="px-6 py-3 bg-gradient-to-r from-orange-500 to-amber-500 text-white font-medium rounded-lg hover:from-orange-600 hover:to-amber-600 transition shadow-lg hover:shadow-orange-200"
+              >
+                Notify Me
+              </button>
+            </form>
+          </div>
+        </div>
+
+        <!-- Right Column -->
+        <div class="lg:w-1/2 flex justify-center float-animation">
+          <lottie-player 
+            src="https://assets5.lottiefiles.com/packages/lf20_vybwn7df.json"  
+            background="transparent" 
+            speed="1" 
+            style="width: 100%; max-width: 500px;" 
+            loop 
+            autoplay
+          ></lottie-player>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <!-- Features Section -->
+  <section class="bg-white py-16">
+    <div class="container mx-auto px-6">
+      <h2 class="text-3xl font-bold text-center mb-12">Why Choose MrBuilder?</h2>
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <div class="bg-gray-50 p-8 rounded-xl hover:shadow-lg transition">
+          <div class="bg-orange-100 w-16 h-16 rounded-full flex items-center justify-center mb-6">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 text-orange-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z" />
+            </svg>
+          </div>
+          <h3 class="text-xl font-semibold mb-3">Smart Automation</h3>
+          <p class="text-gray-600">Hassle-free pergola installation and service with our smart platform.</p>
+        </div>
+        <div class="bg-gray-50 p-8 rounded-xl hover:shadow-lg transition">
+          <div class="bg-orange-100 w-16 h-16 rounded-full flex items-center justify-center mb-6">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 text-orange-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
+            </svg>
+          </div>
+          <h3 class="text-xl font-semibold mb-3">Verified Contractors</h3>
+          <p class="text-gray-600">Access to a network of verified and experienced professionals.</p>
+        </div>
+        <div class="bg-gray-50 p-8 rounded-xl hover:shadow-lg transition">
+          <div class="bg-orange-100 w-16 h-16 rounded-full flex items-center justify-center mb-6">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 text-orange-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+            </svg>
+          </div>
+          <h3 class="text-xl font-semibold mb-3">Transparent Pricing</h3>
+          <p class="text-gray-600">Get instant quotes with no hidden fees or surprises.</p>
+        </div>
+      </div>
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-8 mt-8 max-w-4xl mx-auto">
+        <div class="bg-gray-50 p-8 rounded-xl hover:shadow-lg transition">
+          <div class="bg-orange-100 w-16 h-16 rounded-full flex items-center justify-center mb-6">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 text-orange-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2" />
+            </svg>
+          </div>
+          <h3 class="text-xl font-semibold mb-3">Project Tracking</h3>
+          <p class="text-gray-600">Monitor your pergola project from start to finish in real-time.</p>
+        </div>
+        <div class="bg-gray-50 p-8 rounded-xl hover:shadow-lg transition">
+          <div class="bg-orange-100 w-16 h-16 rounded-full flex items-center justify-center mb-6">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 text-orange-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4" />
+            </svg>
+          </div>
+          <h3 class="text-xl font-semibold mb-3">Pergola Specialists</h3>
+          <p class="text-gray-600">Designed specifically for pergola installation, repair, and maintenance.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Countdown Section -->
+  <section class="py-16 bg-gradient-to-r from-orange-50 to-amber-50">
+    <div class="container mx-auto px-6 text-center">
+      <h2 class="text-3xl font-bold mb-8">Launching In</h2>
+      <div class="flex justify-center space-x-4 md:space-x-8">
+        <div class="bg-white p-4 rounded-lg shadow-md w-20 md:w-24 hover:scale-105 transition-transform">
+          <div class="text-3xl md:text-4xl font-bold text-orange-500" id="days">00</div>
+          <div class="text-gray-500 text-sm">Days</div>
+        </div>
+        <div class="bg-white p-4 rounded-lg shadow-md w-20 md:w-24 hover:scale-105 transition-transform">
+          <div class="text-3xl md:text-4xl font-bold text-orange-500" id="hours">00</div>
+          <div class="text-gray-500 text-sm">Hours</div>
+        </div>
+        <div class="bg-white p-4 rounded-lg shadow-md w-20 md:w-24 hover:scale-105 transition-transform">
+          <div class="text-3xl md:text-4xl font-bold text-orange-500" id="minutes">00</div>
+          <div class="text-gray-500 text-sm">Minutes</div>
+        </div>
+        <div class="bg-white p-4 rounded-lg shadow-md w-20 md:w-24 hover:scale-105 transition-transform">
+          <div class="text-3xl md:text-4xl font-bold text-orange-500" id="seconds">00</div>
+          <div class="text-gray-500 text-sm">Seconds</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-gray-800 text-white py-8">
+    <div class="container mx-auto px-6">
+      <div class="flex flex-col md:flex-row justify-between items-center">
+        <div class="mb-4 md:mb-0">
+          <div class="text-2xl font-bold gradient-text mb-2">MrBuilder</div>
+          <p class="text-gray-400">Building the future of outdoor living.</p>
+        </div>
+      </div>
+      <div class="border-t border-gray-700 mt-8 pt-8 text-center text-gray-400 text-sm">
+        © 2025 MrBuilder. All rights reserved. | <a href="#" class="hover:text-white transition">Privacy Policy</a> | <a href="#" class="hover:text-white transition">Terms of Service</a>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    // Countdown Timer
+    function updateCountdown() {
+      const launchDate = new Date('2026-03-31T00:00:00').getTime();
+      const now = new Date().getTime();
+      const distance = launchDate - now;
+      
+      const days = Math.floor(distance / (1000 * 60 * 60 * 24));
+      const hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+      const minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+      const seconds = Math.floor((distance % (1000 * 60)) / 1000);
+      
+      document.getElementById('days').innerHTML = days.toString().padStart(2, '0');
+      document.getElementById('hours').innerHTML = hours.toString().padStart(2, '0');
+      document.getElementById('minutes').innerHTML = minutes.toString().padStart(2, '0');
+      document.getElementById('seconds').innerHTML = seconds.toString().padStart(2, '0');
+    }
+    
+    updateCountdown();
+    setInterval(updateCountdown, 1000);
+
+    // Form submission
+    document.querySelector('form').addEventListener('submit', function(e) {
+      e.preventDefault();
+      const email = this.querySelector('input[type="email"]').value;
+      
+      // Here you would typically send the email to your server
+      alert(`Thanks for joining our waitlist! We'll notify you at ${email} when we launch.`);
+      this.reset();
+    });
+  </script>
+<p style="border-radius: 8px; text-align: center; font-size: 12px; color: #fff; margin-top: 16px;position: fixed; left: 8px; bottom: 8px; z-index: 10; background: rgba(0, 0, 0, 0.8); padding: 4px 8px;">Made with <img src="https://enzostvs-deepsite.hf.space/logo.svg" alt="DeepSite Logo" style="width: 16px; height: 16px; vertical-align: middle;display:inline-block;margin-right:3px;filter:brightness(0) invert(1);"><a href="https://enzostvs-deepsite.hf.space" style="color: #fff;text-decoration: underline;" target="_blank" >DeepSite</a> - 🧬 <a href="https://enzostvs-deepsite.hf.space?remix=semon000/mrbuilder-comingsoon-page" style="color: #fff;text-decoration: underline;" target="_blank" >Remix</a></p></body>
+</html>
